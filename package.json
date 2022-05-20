@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cronosjs": "^1.7.1",
+    "discord-youtube-api": "^0.1.0",
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1",
+    "moment": "^2.29.3"
+  }
+}
