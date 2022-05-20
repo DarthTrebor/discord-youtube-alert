@@ -24,7 +24,7 @@ client.on('message', async message => {
 cron.scheduleTask('*/20 * * * *', async () => {
     console.log('test');
     const data = await youtubeController.getLastVideo();
-    const channel = client.channels.cache.find(channel => channel.name === "general");
+    const channel = client.channels.cache.find(channel => channel.name === "anunturi");
     data.forEach(item => {
         if(item.id.videoId) {
             const posted_at = moment(item.snippet.publishTime);
